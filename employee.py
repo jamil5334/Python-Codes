@@ -23,6 +23,6 @@ class Employee(object):
 			return self.emp_salary
 
 emp= Employee("KU27", "Joy", 65000, "Tourism")
-sal=employee.calculate_emp_salary(60)
+sal=Employee.calculate_emp_salary(60)
 print("Employee's total pay:", salary)
-employee.employee_details()
+Employee.employee_details()
